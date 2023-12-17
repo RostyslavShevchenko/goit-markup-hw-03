@@ -221,7 +221,7 @@ border-bottom: 1px solid #E7E9FC;
     justify-content: space-between;
 }
 
-.advantages-list-item {
+.advantages-item {
 flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -246,7 +246,7 @@ flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-cards {
+.team-card{
     flex-basis: calc((100% - 72px) / 4);
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
@@ -269,7 +269,7 @@ flex-basis: calc((100% - 72px) / 4);
     row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-card {
     width: calc((100% - 48px) / 3);
 }
 
