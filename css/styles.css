@@ -262,7 +262,6 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .portfolio-item {
-    /* border: 1px solid #E7E9FC; */
     width: calc((100% - 48px) / 3);
 }
 
