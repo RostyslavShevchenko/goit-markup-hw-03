@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul {
     margin: 0;
-} 
+}
 
 .container {
     max-width: 1158px;
@@ -38,6 +38,13 @@ section {
 }
 
 /* header */
+
+.header {
+width: 100%;
+position: sticky;
+background-color: #fff;
+top: 0;
+}
 
 .header .container {
     display: flex;
@@ -240,11 +247,14 @@ section {
 }
 
 .portfolio-item {
+    border: 1px solid #E7E9FC;
      max-width: calc((100% - 48px) / 3);;
 }
 
 .portfolio-image {
     cursor: pointer;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-description {
