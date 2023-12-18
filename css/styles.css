@@ -215,13 +215,13 @@ border-bottom: 1px solid #E7E9FC;
     margin-bottom: 8px;
 }
 
-.advantages-list {
+.advantages-roster {
     gap: 24px;
     display: flex;
     justify-content: space-between;
 }
 
-.advantages-item {
+.advantages-list-item {
     width:calc((100% - 72px) / 4);
 }
 
@@ -239,18 +239,18 @@ border-bottom: 1px solid #E7E9FC;
     background-color: #F4F4FD;
 }
 
-.team-list {
+.team-roster {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-card{
-    width:calc((100% - 72px) / 4);
+.team-roster-card{
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 72px) / 4);
 }
 
 .description {
@@ -260,7 +260,7 @@ border-bottom: 1px solid #E7E9FC;
 
 /* portfolio section */
 
-.portfolio-cards {
+.portfolio-roster {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -269,7 +269,7 @@ border-bottom: 1px solid #E7E9FC;
     row-gap: 48px;
 }
 
-.portfolio-card {
+.portfolio-roster-card {
     width:calc((100% - 48px) / 3);
 }
 
