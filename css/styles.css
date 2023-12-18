@@ -253,6 +253,10 @@ border-bottom: 1px solid #E7E9FC;
     width: calc((100% - 3 * 24px)/4);
 }
 
+.cards-image {
+    width: 100%;
+}
+
 .description {
     padding: 32px 0;
     text-align: center;
